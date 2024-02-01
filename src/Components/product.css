@@ -1,0 +1,26 @@
+.main-div{
+    display: flex;
+    width: 100%;
+}
+
+.left-section{
+    width: 50%;
+}
+
+.imageContainer{
+    width: 100%;
+}
+
+.up-img{
+    width: 100%;
+}
+
+.right-section{
+    margin-left: 5%;
+}
+
+.one-row{
+    width: 100%;
+    display: flex;
+}
+
