@@ -1,0 +1,22 @@
+/* .main-div{
+    width: 100%;
+} */
+.yoga-video{
+    width: 100%;
+}
+
+.dates-list{
+    display: flex;
+}
+
+.dates-div{
+    margin:10px;
+    border: 1px solid greenyellow;
+}
+
+.slot-time{
+    width: 90%;
+    margin: 10px;
+    border: 1px solid gray;
+}
+

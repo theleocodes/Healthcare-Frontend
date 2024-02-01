@@ -1,6 +1,7 @@
 import React from "react";
 import "./product.css";
-
+import AccessTimeIcon from "@mui/icons-material/AccessTime";
+import ChatBubbleIcon from "@mui/icons-material/ChatBubble";
 function Product() {
   return (
     <div className="main-div">
@@ -35,7 +36,10 @@ function Product() {
           <div className="right-right">
             <span>916/month</span>
             <br />
-            <button>Buy Now</button>
+            <a href="/slot">
+              {" "}
+              <button>Buy Now</button>
+            </a>
           </div>
         </div>
 
@@ -48,7 +52,10 @@ function Product() {
           <div className="right-right">
             <span>916/month</span>
             <br />
-            <button>Buy Now</button>
+            <a href="/slot">
+              {" "}
+              <button>Buy Now</button>
+            </a>
           </div>
         </div>
 
@@ -61,13 +68,24 @@ function Product() {
           <div className="right-right">
             <span>916/month</span>
             <br />
-            <button>Buy Now</button>
+            <a href="/slot">
+              {" "}
+              <button>Buy Now</button>
+            </a>
           </div>
         </div>
 
         <h2>What you'll get</h2>
-        <p> <span>&#xf075;</span> A chat group on the elda app where you can connect with your trainer and rest of the Elda yoga community </p>
-        <p><span></span></p>
+        <p>
+          {" "}
+          <ChatBubbleIcon /> A chat group on the elda app where you can connect
+          with your trainer and rest of the Elda yoga community{" "}
+        </p>
+        <p>
+          {" "}
+          <AccessTimeIcon /> ability to reschedule your class if you miss your
+          session
+        </p>
       </div>
     </div>
   );

@@ -1,13 +1,13 @@
 import React from "react";
 import "./home.css";
 
-import AccessibilityIcon from '@mui/icons-material/Accessibility';
-import MonitorHeartIcon from '@mui/icons-material/MonitorHeart';
-import RowingIcon from '@mui/icons-material/Rowing';
+import AccessibilityIcon from "@mui/icons-material/Accessibility";
+import MonitorHeartIcon from "@mui/icons-material/MonitorHeart";
+import RowingIcon from "@mui/icons-material/Rowing";
 
 function Home() {
   return (
-    <div className="main-div">
+    <div className="main-home-div">
       <div className="top-section">
         {/* give this div a class , and make  its display property as  flex */}
         <div className="top-left">
@@ -30,32 +30,44 @@ function Home() {
           ></iframe>
         </div>
       </div>
-      <span>is this for you</span>
+      <span className="mid-text">is this for you</span>
       <div className="second-section">
         {/* give this div a class , and make  its display property as  flex */}
-        <div>
+        <div className="second-item">
           <div className="image-circle">
-            <AccessibilityIcon />
+            <AccessibilityIcon fontSize="large" />
           </div>
-          <p>hard to feel calm or sleep because of stress</p>
+          <p className="image-text">
+            hard to feel calm or sleep because of stress
+          </p>
           {/* study diff between div, span , paragraph tag */}
-          <button>Book trial</button>
+          <a href="/product">
+            <button>Book trial</button>
+          </a>
         </div>
-        <div>
+        <div className="second-item">
           <div className="image-circle">
-            <MonitorHeartIcon />
+            <MonitorHeartIcon fontSize="large" />
           </div>
-          <p>If you have palpatations and breathing troubles</p>
+          <p className="image-text">
+            If you have palpatations and breathing troubles
+          </p>
           {/* study diff between div, span , paragraph tag */}
-          <button>Book trial</button>
+          <a href="/product">
+            <button>Book trial</button>
+          </a>
         </div>
-        <div>
+        <div className="second-item">
           <div className="image-circle">
-            <RowingIcon />
+            <RowingIcon fontSize="large" />
           </div>
-          <p>You have been advised by doctors to avoid physical activity</p>
+          <p className="image-text">
+            You have been advised by doctors to avoid physical activity
+          </p>
           {/* study diff between div, span , paragraph tag */}
-          <button>Book trial</button>
+          <a href="/product">
+            <button>Book trial</button>
+          </a>
         </div>
       </div>
     </div>
