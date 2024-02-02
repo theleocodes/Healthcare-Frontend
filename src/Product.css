@@ -1,0 +1,54 @@
+/* product.css */
+
+/* Your existing styles for the yoga-price-box */
+.yoga-price-box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Additional styles for the six-month-membership section */
+  .six-month-membership {
+    width: 5in;
+    height: 3in;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .discounted-price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .actual-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: -5px; /* Adjust the margin to eliminate the gap */
+  }
+  
+  .discounted {
+    color: #e44d26;
+  }
+  
+  .buy-now-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .monthly-price {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #e44d26;
+  }
+  

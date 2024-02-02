@@ -1,7 +1,13 @@
+
+import React from 'react'
+import '../Product.css';
+
+
 import React from "react";
 import "./product.css";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import ChatBubbleIcon from "@mui/icons-material/ChatBubble";
+
 function Product() {
   return (
     <div className="main-div">
@@ -14,6 +20,20 @@ function Product() {
           ></img>
         </div>
         <div>
+
+            <h2>Choose your package</h2>
+            <div className="six-month-membership">
+            <p>6 Months</p>
+                <div className="discounted-price">
+                    <span className="actual-price"><s>Rs.12999</s></span> 
+                    <span>Rs.5499</span>
+                </div>
+                    <button className="buy-now-button">Buy Now</button>
+                    <p className="monthly-price">Rs.916/month</p>
+                </div>
+            </div>
+        <div>
+
           <h2>What is Yoga for Mind?</h2>
           <p>
             The Yoga for Mind Sessions involve minimal physical movement and
@@ -23,6 +43,7 @@ function Product() {
           </p>
         </div>
       </div>
+
 
       {/* div for choose package */}
       <div className="right-section">
