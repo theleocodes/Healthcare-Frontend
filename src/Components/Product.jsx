@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../Product.css';
 
 function Product() {
   return (
@@ -20,8 +20,16 @@ function Product() {
         {/* div for choose package */}
         <div>
             <h2>Choose your package</h2>
-            <div></div>
-        </div>
+            <div className="six-month-membership">
+            <p>6 Months</p>
+                <div className="discounted-price">
+                    <span className="actual-price"><s>Rs.12999</s></span> 
+                    <span>Rs.5499</span>
+                </div>
+                    <button className="buy-now-button">Buy Now</button>
+                    <p className="monthly-price">Rs.916/month</p>
+                </div>
+            </div>
         <div>
 
         </div>
